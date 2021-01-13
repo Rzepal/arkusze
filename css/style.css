@@ -316,9 +316,6 @@ a:focus {
   display: flex;
   align-items: center;
 }
-.arkusz-link:hover {
-  transform: translateX(7px);
-}
 .arkusz-link:hover .arkusz-info {
   color: #2296cc !important;
 }
@@ -368,6 +365,7 @@ h3 {
   font-size: 20px;
   line-height: 150%;
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 h4 {
   font-size: 16px;
@@ -406,6 +404,24 @@ h1 {
 .fileImg{
   height: 20px;
   margin-right: 5px;
+}
+.ark{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.ark-out{
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.art-img{
+  max-width: 50%;
+  width: 300px;
 }
 @media (min-width: 600px){
   .box{
